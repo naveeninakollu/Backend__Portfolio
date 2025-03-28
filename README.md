@@ -1,69 +1,62 @@
-# 🌐 Personal Portfolio Website
-
-### 👤 Solo Project by Naveen Sai Teja Inakollu
-
-This is a full-stack personal portfolio website built to showcase my work, skills, and projects using modern web technologies.
+- Tested backend endpoints using **Postman** and browser.
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend**: React.js (JSX, functional components, custom props)
-- **Backend**: Java Spring Boot (REST APIs, server-side logic)
-- **Database**: MongoDB (NoSQL, JSON-like documents)
-
----
-
-## 📌 Project Summary
-
-This portfolio website is a dynamic, responsive, and interactive platform developed using a **component-based architecture** in React.js. The backend, built with **Spring Boot**, serves REST APIs and integrates with **MongoDB** to manage persistent data such as project details and contact form submissions.
-
-Data operations between frontend and backend use the native `fetch` API, and the setup is compatible with libraries like Axios for future enhancements.
+### ✅ Step 4: Connect Frontend to Backend
+- Used the **native `fetch` API** in React to call backend endpoints.
+- Dynamically rendered fetched data into UI (e.g., About section).
+- Fully supports swapping in **Axios** if needed.
 
 ---
 
-## 🚀 Steps Involved
+### ✅ Step 5 (Optional): Testing (For Future Enhancement)
+- **Backend**: Setup for unit/integration testing using **JUnit** and **Mockito**.
+- **Frontend**: Compatible with testing tools like **Cypress** and **React Testing Library**.
 
-### ✅ Step 1: Frontend Development
-- Built using functional React components with reusable props.
-- Responsive UI/UX layout tailored to portfolio needs.
-- APIs were planned for dynamic content like project listings and contact form data.
-
-### ✅ Step 2: Backend Setup
-- Spring Boot project created with dependencies: `Spring Web`, `Spring Data MongoDB`.
-- RESTful APIs developed to handle CRUD operations.
-
-### ✅ Step 3: MongoDB Integration
-- Connected MongoDB using URI in `application.properties`.
-- Created and managed collections for portfolio data.
-- Backend tested using Postman and browser API calls.
-
-### ✅ Step 4: Frontend–Backend Integration
-- Used `fetch` API to consume Spring Boot APIs from the frontend.
-- Portfolio content rendered dynamically from MongoDB data.
-
-### ✅ Step 5 (Optional): Testing
-- **Backend**: JUnit & Mockito for unit/integration tests.
-- **Frontend**: Cypress or React Testing Library for UI and performance testing.
+---
 
 ### ✅ Step 6: Deployment
-- Frontend can be deployed using **Vercel**, **Netlify**, or **GitHub Pages**.
-- Backend hosted via **Render**, **Heroku**, or **AWS EC2**.
-- Sensitive configuration managed with **environment variables**.
+- **Frontend**: Can be deployed on:
+- Vercel
+- Netlify
+- GitHub Pages
+
+- **Backend**: Can be deployed using:
+- Render
+- Heroku
+- AWS EC2 instance
+
+- Managed sensitive data via **environment variables**.
 
 ---
 
 ## 👋 About Me
 
-- 🌱 **Continuous Learner**: I embrace new challenges through curiosity and hands-on problem solving.
-- 🙋‍♂️ **Initiative Taker**: I take ownership and deliver with accountability.
-- 🛠️ **Progress > Perfection**: I believe in iterative improvement and early feedback.
-- 💬 **Clear Communicator**: I keep communication open and transparent.
-- 📚 **Detail-Oriented**: From clean code to good documentation, I care about quality.
-- 🤝 **Team-Focused**: I build trust and aim for collective success.
+Here’s a little bit about my work style and mindset:
+
+- 🌱 **Continuous Learner**  
+I enjoy learning by doing, exploring new tools, and growing with each challenge.
+
+- 🙋‍♂️ **Takes Initiative**  
+I don’t wait around — I step up, take ownership, and deliver.
+
+- 🛠️ **Progress Over Perfection**  
+I believe in iterative development and learning from feedback.
+
+- 💬 **Clear Communicator**  
+I prioritize clarity, collaboration, and transparency.
+
+- 📚 **Detail-Oriented**  
+From code to documentation — I care about both how and what I build.
+
+- 🤝 **Team-Focused**  
+I build trust by being reliable, proactive, and mission-driven.
 
 ---
 
-## 🙏 Thank You!
+## 🙏 Final Note
 
-Looking forward to feedback and the next steps ahead! 🚀
+Thank you for reviewing my portfolio project!  
+Looking forward to feedback, contributions, and growing this further! 🚀
+
+---
